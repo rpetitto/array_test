@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "Video Thumbnail",
+    "description": "Create a thumbnail from a video URL. https://www.test.com",
+    "author": "Robert Petitto",
+    "params": [
+      {
+        "name": "videoURL",
+        "displayName": "Video URL",
+        "type": "string"
+      },
+      {
+        "name": "thumbnailSize",
+        "displayName": "Size in pixels",
+        "type": "number"
+      },
+      {
+        "name": "thumbnailSeek",
+        "displayName": "Timestamp of thumbnail in seconds",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "number"
+    }
+  }
+]
